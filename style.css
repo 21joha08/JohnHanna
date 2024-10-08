@@ -309,22 +309,25 @@ section {
 
 .article-container {
     display: flex;
-    text-align: initial;
     flex-wrap: wrap;
     flex-direction: row;
     gap: 2.5rem;
     justify-content: space-around;
+    align-items: flex-start;
 }
 
 article {
     display: flex;
-    width: 10rem;
-    justify-content: space-around;
+    width: 12rem;
+    flex-direction: row;
+    align-items: center;
     gap: 0.5rem;
 }
 
 article .icon {
     cursor: default;
+    width: 24px;
+    height: 24px;
 }
 
 #projects {
@@ -391,5 +394,17 @@ footer p {
 
 .github-icon {
     margin-top: 1rem;
-    
+    height: 30px;
+
+}
+
+.linkedin-icon {
+    height: 30px;
+
+}
+
+.sportfusion {
+    width: 300px;
+    height: 150px;
+    border-style: solid;
 }
